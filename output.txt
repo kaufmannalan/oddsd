@@ -1,0 +1,33 @@
+"C:\Program Files\Java\jdk-10.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.2\bin\IntelliJ IDEA Community Edition 2018.2.2\lib\idea_rt.jar=61969:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.2\bin\IntelliJ IDEA Community Edition 2018.2.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Alan\IdeaProjects\jd\out\production\jd Main
+
+Scenario 1
+Expected Percentage: 0.500000
+Amount of evens: 49980
+Amount of odds: 50020
+Actual percentage: 0.499800
+
+Scenario 2
+Expected Percentage: 0.700000
+Amount of evens or more than 5: 69977
+Amount of odds or less than 5: 30023
+Actual percentage: 0.699770
+
+Scenario 3
+Expected Outcome: 0.250000
+Amount of even then odd: 25012
+Amount of other: 74988
+Actual percentage: 0.250120
+
+Scenario 4
+Expected Outcome: 0.037037
+Amount of 1-2 then 3-4 then 5-6: 3831
+Amount of other: 96169
+Actual percentage: 0.038310
+
+Scenario 5
+Expected Outcome: 0.277778
+Amount of outcomes where none of the rolls: 27705
+Amount of other: 72295
+Actual percentage: 0.277050
+
+Process finished with exit code 0
